@@ -1,5 +1,7 @@
 #!/bin/python3
-
+"""
+File containing code for answers to Q3(a)&(b)
+"""
 from vector import Vector
 
 v1 = Vector(2,10, 5)
@@ -63,3 +65,5 @@ Angle_D12_D13 = Vector.__angle__(D12, D13)
 Angle_D12_D23 = Vector.__angle__(D12, D23)
 Angle_D13_D23 = Vector.__angle__(D13, D23)
 print(f"Angles in triangle A: ({Angle_D12_D13},{Angle_D12_D23}, {Angle_D12_D23})")
+
+#Licensing provided in LICENSE.txt file
