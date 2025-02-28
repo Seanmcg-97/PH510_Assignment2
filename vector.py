@@ -80,6 +80,8 @@ class VectorP(Vector):
         """
         r = np.sqrt((self.a)**2 + (self.b)**2 + (self.c)**2)
         t = np.arccos(self.c/np.sqrt((self.a)**2 + (self.b)**2 + (self.c)**2))
+
+        #Licensing provided in LICENSE.txt file
         p = np.arctan2(self.b, self.a)
 
         return f"Vector: ({r:.6f}, {t:.6f}, {p:.6f})"
